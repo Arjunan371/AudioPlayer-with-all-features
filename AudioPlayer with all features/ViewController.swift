@@ -79,7 +79,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
             slider.maximumValue = Float(player.duration)
         }
     }
-    
+    //MARK: PLAY PAUSE BUTTON
     @IBAction func playPauseButtonTapped(_ sender: UIButton) {
         if isPlaying {
             player.pause()
@@ -91,7 +91,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         isPlaying = !isPlaying
         updateUI()
     }
-    
+   //MARK: NEXT SONG
     @IBAction func nextButtonTapped(_ sender: UIButton) {
         if currentSongIndex < songs.count - 1 {
             currentSongIndex += 1
@@ -102,7 +102,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
             updateUI()
         }
     }
-    
+   //MARK: PREVIOUS SONG
     @IBAction func previousButtonTapped(_ sender: UIButton) {
         if currentSongIndex > 0 {
             currentSongIndex -= 1
@@ -116,14 +116,14 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     @objc func updateSlider(){
         slider.value = Float(player.currentTime )
     }
-    
+   //MARK: SLIDER ACTION
     @IBAction func sliderAction(_ sender: Any) {
         player.stop()
         player.currentTime = TimeInterval(slider.value)
         player.prepareToPlay()
         player.play()
     }
-    
+ //MARK: METADATA
     func extractImageFromMP3(fileURL: URL) -> UIImage? {
         let asset = AVAsset(url: fileURL)
         
@@ -146,4 +146,3 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     
     
 }
-

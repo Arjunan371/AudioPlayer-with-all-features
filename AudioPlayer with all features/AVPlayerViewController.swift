@@ -188,6 +188,7 @@ class AVPlayerViewController: UIViewController {
         
         
     }
+    //MARK: METADATA
     func extractImageFromMP3(fileURL: URL) {
         let asset = AVAsset(url: fileURL)
         
