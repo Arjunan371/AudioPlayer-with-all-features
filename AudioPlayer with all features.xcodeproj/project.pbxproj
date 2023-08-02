@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D623DF02A72754E00E1E5E5 /* Kaavaalaa-MassTamilan.dev.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8D623DEE2A72754E00E1E5E5 /* Kaavaalaa-MassTamilan.dev.mp3 */; };
+		8D623DF12A72754E00E1E5E5 /* Hukum---Thalaivar-Alappara-MassTamilan.dev.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8D623DEF2A72754E00E1E5E5 /* Hukum---Thalaivar-Alappara-MassTamilan.dev.mp3 */; };
+		8D623E662A72A6EB00E1E5E5 /* AVPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D623E652A72A6EB00E1E5E5 /* AVPlayerViewController.swift */; };
 		B8C47F322A7109790091EBE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C47F312A7109790091EBE0 /* AppDelegate.swift */; };
 		B8C47F342A7109790091EBE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C47F332A7109790091EBE0 /* SceneDelegate.swift */; };
 		B8C47F362A7109790091EBE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C47F352A7109790091EBE0 /* ViewController.swift */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D623DEE2A72754E00E1E5E5 /* Kaavaalaa-MassTamilan.dev.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Kaavaalaa-MassTamilan.dev.mp3"; path = "../Kaavaalaa-MassTamilan.dev.mp3"; sourceTree = "<group>"; };
+		8D623DEF2A72754E00E1E5E5 /* Hukum---Thalaivar-Alappara-MassTamilan.dev.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Hukum---Thalaivar-Alappara-MassTamilan.dev.mp3"; path = "../Hukum---Thalaivar-Alappara-MassTamilan.dev.mp3"; sourceTree = "<group>"; };
+		8D623E652A72A6EB00E1E5E5 /* AVPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerViewController.swift; sourceTree = "<group>"; };
 		B8C47F2E2A7109790091EBE0 /* AudioPlayer with all features.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AudioPlayer with all features.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8C47F312A7109790091EBE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8C47F332A7109790091EBE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +85,8 @@
 		B8C47F252A7109790091EBE0 = {
 			isa = PBXGroup;
 			children = (
+				8D623DEF2A72754E00E1E5E5 /* Hukum---Thalaivar-Alappara-MassTamilan.dev.mp3 */,
+				8D623DEE2A72754E00E1E5E5 /* Kaavaalaa-MassTamilan.dev.mp3 */,
 				B8C47F302A7109790091EBE0 /* AudioPlayer with all features */,
 				B8C47F472A71097B0091EBE0 /* AudioPlayer with all featuresTests */,
 				B8C47F512A71097B0091EBE0 /* AudioPlayer with all featuresUITests */,
@@ -102,6 +110,7 @@
 				B8C47F312A7109790091EBE0 /* AppDelegate.swift */,
 				B8C47F332A7109790091EBE0 /* SceneDelegate.swift */,
 				B8C47F352A7109790091EBE0 /* ViewController.swift */,
+				8D623E652A72A6EB00E1E5E5 /* AVPlayerViewController.swift */,
 				B8C47F372A7109790091EBE0 /* Main.storyboard */,
 				B8C47F3A2A71097B0091EBE0 /* Assets.xcassets */,
 				B8C47F3C2A71097B0091EBE0 /* LaunchScreen.storyboard */,
@@ -232,7 +241,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8C47F3E2A71097B0091EBE0 /* LaunchScreen.storyboard in Resources */,
+				8D623DF12A72754E00E1E5E5 /* Hukum---Thalaivar-Alappara-MassTamilan.dev.mp3 in Resources */,
 				B8C47F3B2A71097B0091EBE0 /* Assets.xcassets in Resources */,
+				8D623DF02A72754E00E1E5E5 /* Kaavaalaa-MassTamilan.dev.mp3 in Resources */,
 				B8C47F392A7109790091EBE0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +271,7 @@
 			files = (
 				B8C47F362A7109790091EBE0 /* ViewController.swift in Sources */,
 				B8C47F322A7109790091EBE0 /* AppDelegate.swift in Sources */,
+				8D623E662A72A6EB00E1E5E5 /* AVPlayerViewController.swift in Sources */,
 				B8C47F342A7109790091EBE0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,6 +457,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +486,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
