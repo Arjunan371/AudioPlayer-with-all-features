@@ -23,7 +23,7 @@ class AVPlayerViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-    //    
+    //
         avplayerUrl()
         slider.minimumValue = 0
         slider.value = 0
@@ -151,7 +151,7 @@ class AVPlayerViewController: UIViewController {
                 player.pause()
               
             }
-            
+        //
             
         } else {
             
