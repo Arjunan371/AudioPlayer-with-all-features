@@ -161,9 +161,7 @@ class AVPlayerViewController: UIViewController {
             
             
         }
-        
-        
-        
+            
     }
     
     func avplayerUrl(){
